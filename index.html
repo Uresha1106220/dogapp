@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      display: flex; 
+    }
+
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+
+    .image-details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 50px;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin left: 50px;
+      cursor: pointer;
+    }
+    #MAIN{
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <a href="page1.html">
+      <DIV id="MAIN">
+      <img src="image/image/fluffy-cute.gif" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="beagal">
+        
+      </div>
+    </a>
+
+    <a href="page2.html">
+      <DIV id="MAIN">
+      <img src="image/image/boxer" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="boxer">
+        
+      </div>
+    </a>
+
+    <a href="page3.html">
+      <DIV id="MAIN">
+      <img src="image/image/cocker spaniel" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="cocker spaniel">
+        
+      </div>
+    </a>
+
+    <a href="page4.html">
+      <DIV id="MAIN">
+      <img src="image/image/dashshund" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="dashshund">
+        
+      </div>
+    </a>
+
+    <a href="page5.html">
+      <DIV id="MAIN">
+      <img src="image/image/geraman shepherd" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="geraman shepherd">
+        
+      </div>
+    </a>
+
+    <a href="page6.html">
+      <DIV id="MAIN">
+      <img src="image/image/golden retriver" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="golden retriver">
+        
+      </div>
+    </a>
+
+    <a href="page7.html">
+      <DIV id="MAIN">
+      <img src="image/image/great dane" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="great dane">
+        
+      </div>
+    </a>
+
+    <a href="page8.html">
+      <DIV id="MAIN">
+      <img src="image/image/labrador" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="labrador">
+        
+      </div>
+    </a>
+  
+    <a href="page9.html">
+      <DIV id="MAIN">
+      <img src="image/image/pomeranian" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="pomeranian">
+        
+      </div>
+    </a>
+    
+    
+    <a href="page10.html">
+      <DIV id="MAIN">
+      <img src="image/image/pug" >
+      <p>name of bread</p>
+    </DIV>
+      <div class="pug">
+        
+      </div>
+    </a>
+    
+
+  </div>
+
+  <script>
+    document.querySelectorAll('.image-container a').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.open(link.href, '_blank');
+      });
+    });
+  </script>
+</body>
+</html>
